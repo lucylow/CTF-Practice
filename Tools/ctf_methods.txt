@@ -1,0 +1,229 @@
+#ctf_methods.txt
+# CTF = Capture the Flag 
+
+
+
+##############################################
+
+# network and dumps
+- connect via TCP/UDP
+- mass IP port scanner
+- TCP port scanner 
+- make TOR Network default gateway
+- analyze network dumps
+-
+- network tool to scan ports
+- packet manipulation
+- wifi
+	- injection
+	- monitoring
+	- cracking
+- netwrok packet analyzer
+- http traffic 
+	- sniffer analyzer
+	- pcap analyzer
+- packet injector
+- packet sniffer/modifier 
+-websocket hihacking 
+- inspect http requests to specific url 
+
+
+
+
+##############################################
+
+# binary
+
+- online binary analysis
+- behavior analysis
+-decompilers
+- detect static ode fork nocn algortms 
+- online debuggers
+- debfuscator
+- binary packer detection
+- inspext process calls and trace them 
+- memory scanner
+- GNU debugger
+- call tracers
+- reconstruct IAT table for unpacked binaries 
+- memory scanner 
+- gdb plugin 
+- delphi decompiler
+- copy memory of enecute for ELF binaries 
+- binary password finder for cyf using pin
+- rop chaining
+- shellcode generator frameworks
+- string format exploits
+- value-setanalysis 
+- visualize heap chunks 
+- check binary hardening settings
+- semantic binary analysis 
+- create MD5 colliding binaries
+- python glibc heap ptmalloc
+- serach for libc 
+-
+-
+-
+
+
+##############################################
+
+# steganography  
+- check jpg tags
+- read/edit metadata 
+- resize images for stegranography
+- find hidden things in images
+- retrive/hide messages in various containers 
+- convert images b/w formats
+- show EXIP info in JPEG images
+- image metadata manipulation tool
+- deblura nd fx defocused images
+- brute-force dictionary attacks on JPG image
+-hide data in images
+- PNG/BMP analysis 
+-
+
+
+
+##############################################
+
+# reverse engineering 
+- machine emulator or virtualizer 
+- revese engineer android apps
+- decompile andrid file
+- runtime mobile exploratino
+- generate indented pseudo-cude
+-  android decompulor
+- extract fireware images
+- decompile x86 binaries to C
+- dynamic code inejction
+- GNU project debugger
+-GDB plugin
+-
+-
+-
+-
+-
+-
+-
+-
+-
+-
+
+
+
+##############################################
+
+web exploitation 
+- bruteforce dictoinary attaack on webservers
+- find hidden directories
+- XSS spreadsheet
+- sql injections
+-request tool analysis forge request
+- HTTP web proxy 
+- temp page for GET/POST requests
+- exploit web hosting
+- anon encrypted pastepin
+- past with coloartion
+- test outgoing ports
+- check if IP is spam/bot
+- xss/sql tests
+- modify HTTP headers/requests
+- edit cookies
+- web server scanner
+- find subdomains bruteforce
+-remote password cracker
+- webclient curl ncureses
+- web emulator bruteforce 
+- CSS bypass in browers
+- static code analysis security
+- nginx config auditor 
+- inject dlls in proces
+- 0S command injection
+-OS exploiation tool
+-intercept proxies
+- fuzz HTTP requests/responses
+- XSS testor 
+- pnetration testing 
+- web path scanner 
+-CLI Web proxy
+- DNS meta-query spider 
+
+
+
+##############################################
+
+#foresic analysis 
+- analyse memory dump
+- analyze hard drives
+- file recovery after deletion or format
+- find files in bin
+- dff - forensic gui analyzer
+- dump/copy $MFT files
+- dump cache entereis from registry 
+- search files on shares/local drives 
+- crack WEP and WPA-PSK keys
+- analyze sound files mp3, m4a, 
+- dump SYSTEM and SAM files
+-read, write, edit metadata
+- recover data from mountable images
+- trace windows keral
+-extract files using headers
+- fix corrupt filesystems
+- hunt malware
+- investigate nt_user.dat files
+- host communcation through DNS 
+- dump registry 
+- rad bitlocker encrypted paritions 
+- file acrver
+-
+-
+-
+
+
+
+
+
+
+
+
+
+##############################################
+
+# cryptographic
+- find xor key from xor text
+-cribd ragging on xored text
+- hash extension forger
+- hash identifier
+-break CBC encryption 
+-extract bits from images for steganography
+- bruteforce 
+- disco attacks 
+- hash cracer
+- calculate RSA = pqnde giving primes/exp.
+- calculate RSA-CRT = dP,Dq,Qlnv
+- recovering RSA private keys
+- brake PKZip-encryption 
+- multi-byte xor cipher
+- crib dragging tool
+-md5sum collision generation 
+- libc offsets to simplif exploritions 
+- nonce-disrepcet - forgery GCM in TLS 
+- ssl pem FILE CRACKER
+- crc FINDER
+- decode ssh traffic
+- SSL/TLS MITM
+- XOR analysis
+- automated integer factorization 
+
+
+
+
+
+
+
+
+
+
+##############################################
+

@@ -1,0 +1,150 @@
+# CTF = Capture the Flag 
+# 
+# online cybersecurity team competition 
+#
+# solution is a string ["the flag"] which is submitted for points
+
+
+##############################################
+
+# network and dumps
+
+
+
+
+##############################################
+
+# binary
+
+- info
+	-programs compiled into binary files 
+		- abstract addresses in memory
+		- program stored in a file in the form of processor instrucctoins written to RAM
+	-processor has special memory cells 
+		- ip = instruction pointer : register adression of next insttruction stored
+		- sp = stack pointer : register adress of the TOP of the stack is stored, - ax,bx,cx,dx etc = registers for intermediate calculations 
+	- linux ELF files 
+	0 
+
+- binary exploit ctfs
+	- registers
+	- stacks/ heaps
+	- calling conventions
+	-global offet table GOT
+	- buggers 
+	-return oriented programming ROP
+	- binary security
+		- no execute NX
+		- adress space layout randomization aslr
+		- stack canaries
+		- relocation read-only relro 
+	- buffer overflow
+	- format strings
+	- heap vulnerabilities 
+	
+
+
+
+
+##############################################
+
+# reverse engineering 
+
+- info
+	- takes compiled program and converts into human readble format 
+	-assembler alnguage 
+		- programming lagnuage associated with processor isntructinos/commands
+		-programs => functions => procedures => instructions  [stored in memory w starting address ]
+	-stacks
+		- top of stack 
+		- push/pop stacks 
+		- base pointer 
+
+- reverse eng tools
+	- dis-assembler to view assembler code 
+	- hex-editor [HxD]
+	- resource browser
+	-debugger 
+
+- reverse eng ctfs 
+	- examine compiled programes from smiple to purposely obfuscated code 
+	- assembly code
+	- machine code
+	- disassemblers
+	- decompilers 
+
+
+
+
+
+
+##############################################
+
+web exploitation 
+- info
+	- exploit web bug to gain some kind of higher level priveledge 
+-ctfs
+	- SQL injections 
+	- command injection
+	- directoryt raversal
+	- cross-site request forgery
+	- cross-site scripting 
+	- web guessing 
+	- server side request forgery 
+
+
+
+
+
+##############################################
+
+#foresic analysis 
+- info 
+	- recovering digital trail left on a computer 
+
+
+- ctfs 
+	- file formats
+	- EXIF data
+	- Wireshark 
+	- PCAPs
+	- stegonagraphy
+	- disk imaging 
+
+
+
+
+##############################################
+
+# cryptographic
+
+-info 
+	- "the art of writing code"
+	- used mainly to protct sensitive info over the web 
+		- securing web traffic like passwords
+		- securing copyrighted software code 
+		- hiding malicious code 
+	- braeking encryption schemes
+
+- ctfs 
+	- classic ciphers 
+		- ceasar
+		- substitution
+		-vigenere
+		-block
+		- stream
+	- XOR
+	- RSA
+	- Hashing functions 
+	
+
+
+
+
+
+##############################################
+
+
+Good pracice websites
+
+https://ctf101.org/
